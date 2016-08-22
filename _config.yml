@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: I'm a sword.
+name: 橙子雨
+profession: Web Desinger
+email: robertchengzy@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  情深不寿，强极则辱，谦谦君子，温润如玉。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://robertcheng.github.io" # the base hostname & protocol for your site
+twitter_username: ZhiyuCheng
+github_username:  robertchengzy
+permalink: pretty #/:categories/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
+
+highlighter: pygments
